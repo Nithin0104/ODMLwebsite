@@ -1,0 +1,83 @@
+.slab{
+    width: 80%;
+    margin-bottom: 50px;
+    border-radius: 22px;
+    background-color: aquamarine;
+    min-height: 300px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.photo{
+    width: 30%;
+    height: 100%;
+    background-color:azure;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: 'Orbitron';
+    font-weight: bolder;
+}
+.desc{
+    width: 60%;
+    height: 100%;
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.decision{
+    width: 10%;
+}
+.dd1{
+    scale: 0.8;
+}
+.pic{
+    width: 90%;
+    background-color: #ffffff;
+    height: 70%;
+}
+
+.desc{
+    font-family: 'Montserrat';
+    font-size: 20px;
+    max-width: 60%;
+}
+
+.desc span{
+    font-family: 'Orbitron';
+    font-weight: bolder;
+    font-size: 18px;
+}
+.desc p{
+    width: fit-content;
+    word-wrap: break-word;
+    height: fit-content;
+    margin: 0;
+    padding: 0;
+}
+.fit{
+    width: 100%;
+    height: fit-content;
+}
+.date{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.desc1{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}

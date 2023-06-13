@@ -1,0 +1,83 @@
+.Nfull{
+    top: 0;
+    left: 0;
+    right: 0;
+    height: max-content;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    min-height: 720px;
+    background-color: #ffffff;
+}
+
+.Nmain{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: auto;
+    margin-left: 4vw;
+    margin-top: 65px;
+    min-height: 720px;
+    background-color:aliceblue
+}
+.Nmiddle{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    min-height: 620px;
+    height: auto;
+    background-color: #ffffff;
+}
+.head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    height:30px;
+    background-color: antiquewhite;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    width: 90%;
+    height: auto;
+    min-height: 530px;
+    background-color:antiquewhite;
+}
+.Slab{
+    display: flex;
+    margin-top: 30px;
+    
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    height: auto;
+    min-height: 120px;
+    border-radius: 12px;
+    background-color: #ffffff;
+}
+
+.phot{
+    position: relative;
+    width: 100px;
+    background-color: antiquewhite;
+    
+    height:  100px;
+}
+.descp{
+    width: 70%;
+    background-color: antiquewhite;
+    height: auto;
+    min-height: 100px;
+
+}

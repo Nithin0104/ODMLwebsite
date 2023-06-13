@@ -1,0 +1,274 @@
+.aSlist{
+    
+    display: flex;
+    flex-direction: column;
+    margin-left:4vw ;
+    margin-top: 2vw;
+    width: 95%;
+    height: 100%;
+    background-color: #ffffff;
+}
+
+.adec{
+    width: 20px;
+}
+
+.aeveadd1{
+    width: 90%;
+    padding-right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.aeveadd1 form{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+    width: 50%;
+
+}
+
+.amanage{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width:100%;
+    
+}
+.amanage select{
+    width: 100%;
+}
+
+.mand{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.aAdd{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    height: 40px;
+    border-radius: 12px;
+    background-color:#e0f0f8;
+}
+
+.aShead{
+    height: 110px;
+    font-family: 'Orbitron';
+    font-size: 40px;
+    font-weight: bold;
+    color: #4F6D7A;
+}
+.aShead p{
+    margin: 0;
+    margin-top: 45px;
+}
+
+.aSline{
+    width: 90%;
+    border: 4px solid #82C0CC;
+    border-radius: 20px;
+}
+
+.aEvents{
+    margin-top: 40px;
+    height:fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.addcol{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.aEventSlab{
+    background: #e0f0f8;
+    margin-bottom: 30px;
+    height: 250px;
+    width: 88%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.aeventadd{
+    position: fixed;
+    top: 100px;
+    width: 40vw;
+    left: 30vw;
+    height: 600px;
+    
+    background-color: #82C0CC;
+    background-color: rgba(130, 192, 204, 0.8); /* Use rgba to set the background color with transparency */
+  backdrop-filter: blur(8px); /* Apply blur effect to the background */
+  -webkit-backdrop-filter: blur(8px); /* For Safari support */
+  z-index: 13;
+  
+}
+
+.aeveadd1{
+    position: relative;
+    top: 55px;
+    left: 4vw;
+    width: 80%;
+    height: 80%;
+    background-color: #ffffff;
+}
+
+.aEventopt{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 80%;
+    width: 10%;
+    background-color:aliceblue;
+}
+
+.aeo{
+    width: 80%;
+    background-color: #cadef8;
+    height: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.aEventSp{
+    width: 9vw;
+    background: #564FBD;
+    height: 80%;
+    opacity: 0.3;
+    border-radius: 20px;
+}
+.aEventSdet{
+    margin-left: 2vw;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    width: 27vw;
+    background-color: #ffffff;
+    height: 80%;
+    }
+    .aEventSdet p{
+margin: 1vw;
+    }
+.aEve1{
+    font-family: 'Orbitron';
+    color: #4F6D7A;
+    font-weight: bold;
+margin: 0;
+}
+.aEve1 p{margin: 0;
+margin-left: 10px;}
+.aEve2{
+    margin-top: 8px;
+    width: 28vw;
+    border: 1px solid #82C0CC;
+    border-radius: 20px; 
+    font-family: 'Montserrat';
+}
+.aEve3{
+    font-family: 'Montserrat';
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.aEve3 p{
+    margin: 0;
+    padding-left: 10px;
+    padding-top: 5px;
+    text-align:justify;
+}
+.aEve31{width: 15vw; margin: 0;}
+
+.aEve32{width: 14vw; margin:0}
+.aEve4{font-family: 'Montserrat';}
+.aEve5{font-family: 'Montserrat';}
+.aEve6{font-family: 'Montserrat';
+    display: flex;
+    margin: 0;
+    height: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+.aEve62{height: 35px;
+    border-radius: 20px;
+    width: 80px;
+    text-align: center;
+    margin-bottom: 30px;
+    background-color: #82C0CC;
+}
+.aEve62 p{
+    margin: 8px;
+    margin-left: 12px;
+
+}
+
+.afilter{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 85%;
+    height: 50px;
+    background-color: rgba(161, 146, 172,50%) ;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.afilter form{
+    
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Orbitron';
+}
+
+
+.afilter form label{
+    margin-left: 40px;
+    margin-right: 5px;
+    
+}
+.afilter form input{
+    border-radius: 10px;
+    height: 20px;
+    font-family: 'Montserrat';
+}
+
+.afilter form button{
+    margin-left: 40px;
+    height: 30px;
+    border: 0;
+    font-family: 'Orbitron';
+    font-weight: bold;
+    border-radius: 8px;
+    background-color: #82C0CC;
+    
+}
+.afilter form button:hover{
+    background-color: rgba(66, 53, 194,0.6);
+    transition-duration: 0.3s;
+    color: white;
+}

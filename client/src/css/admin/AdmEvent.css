@@ -1,0 +1,26 @@
+
+.AdmPanel{
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    background-color: #ffffff;
+    margin-top: 65px;
+}
+
+.AdmL{
+    position: relative;
+    width: 55%;
+    height: auto;
+    
+}
+.AdmD{
+    position: relative;
+    width: 45%;
+    height: auto;
+}
